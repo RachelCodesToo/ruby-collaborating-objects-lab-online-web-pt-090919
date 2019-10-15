@@ -11,4 +11,4 @@ class MP3Importer
   end 
   
   def import 
-    files.each 
+    files.each {|f| f.gsub
