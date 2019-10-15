@@ -9,7 +9,7 @@ class Artist
     @@all << self 
   end 
   
-  def Artist.all
+  def self.all
     @@all 
   end 
   
