@@ -1,3 +1,3 @@
 class MP3Importer
   
-  attr_reader :$LOAD_PATH
+  attr_reader :path
