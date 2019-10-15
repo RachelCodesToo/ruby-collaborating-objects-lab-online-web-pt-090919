@@ -7,4 +7,4 @@ class MP3Importer
   end 
   
   def files 
-    @files ||= Dir.glo
+    @files ||= Dir.glob()
