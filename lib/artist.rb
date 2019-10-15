@@ -6,7 +6,7 @@ class Artist
   
   def initialize(name)
     @name = name 
-    save
+    @@all << self 
   end 
   
   def self.all
@@ -26,9 +26,7 @@ class Artist
     find(name) ? find(name) :new(name)
   end 
   
-  def save
-    @@all << self 
-  end 
+  
   
   
 end 
