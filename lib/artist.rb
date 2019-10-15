@@ -13,6 +13,6 @@ class Artist
     @@all 
   end 
   
-  def add_songs
+  def add_song(song)
 
 end 
