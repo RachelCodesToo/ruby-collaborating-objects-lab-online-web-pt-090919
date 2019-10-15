@@ -26,7 +26,7 @@ class Artist
     find(name) ? find(name) :new(name)
   end 
   
-  
+  def print 
   
   
 end 
