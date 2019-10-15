@@ -13,4 +13,5 @@ class Artist
     @@all 
   end 
   
+  def 
 end 
