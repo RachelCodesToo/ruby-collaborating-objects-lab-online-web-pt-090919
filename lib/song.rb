@@ -8,7 +8,10 @@ class Song
     @name = name 
   end 
 
-  def 
+  def Song.all
+    @@all 
+  end 
+  
 
 
 end 
