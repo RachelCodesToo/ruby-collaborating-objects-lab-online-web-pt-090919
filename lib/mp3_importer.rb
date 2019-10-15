@@ -7,4 +7,4 @@ class MP3Importer
   end 
   
   def files 
-    @files ||= Dir.glob("#")
+    @files ||= Dir.glob("#{path")
